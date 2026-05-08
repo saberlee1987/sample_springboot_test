@@ -1,0 +1,21 @@
+server:
+  port: 9500
+  tomcat:
+    accesslog:
+      enabled: true
+      encoding: UTF-8
+    threads:
+      max: 500
+      min-spare: 20
+
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+spring:
+  application:
+    name: sample_springboot_test
+    version: 1.0.0
+    admin:
+      enabled: true
